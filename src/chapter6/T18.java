@@ -1,0 +1,48 @@
+package c6;
+import java.util.Scanner;
+public class T18 {
+
+	/**
+	 * @param args
+	 */
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+
+		java.util.Scanner input = new java.util.Scanner(System.in);
+	    System.out.print("Enter a string for password: ");
+	    String s = input.nextLine();
+
+	    if (isValidPassword(s)) {
+	      System.out.println("Valid password");
+	    }
+	    else {
+	      System.out.println("Invalid password");
+	    }
+	  }
+
+	  /** Check if a string is a valid password */
+	  public static boolean isValidPassword(String s) {
+	    // Only letters and digits?
+	    for (int i = 0; i < s.length(); i++) {
+	      if (!Character.isLetter(s.charAt(i)) && 
+	          !Character.isDigit(s.charAt(i)))
+	        return false;
+	    }
+	    
+	    // Check length
+	    if (s.length() < 8)
+	      return false;
+	    
+	    // Count the number of digits
+	    int count = 0;
+	    for (int i = 0; i < s.length(); i++) {
+	      if (Character.isDigit(s.charAt(i)))
+	        count++;
+	    }
+	    
+	    if (count >= 2)
+	      return true;
+	    else 
+	      return false;
+	  }
+	}

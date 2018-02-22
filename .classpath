@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<classpath>
+	<classpathentry excluding="codeforces/" kind="src" path="src"/>
+	<classpathentry kind="lib" path="C:/Program Files/Java/jdk1.8.0_101/jre/lib/ext/jfxrt.jar"/>
+	<classpathentry kind="lib" path="C:/Program Files/Java/jdk1.8.0_101/jre/lib/charsets.jar"/>
+	<classpathentry kind="lib" path="C:/Program Files/Java/jdk1.8.0_101/jre/lib/deploy.jar"/>
+	<classpathentry kind="lib" path="C:/Program Files/Java/jdk1.8.0_101/jre/lib/javaws.jar"/>
+	<classpathentry kind="lib" path="C:/Program Files/Java/jdk1.8.0_101/jre/lib/jce.jar"/>
+	<classpathentry kind="lib" path="C:/Program Files/Java/jdk1.8.0_101/jre/lib/jfr.jar"/>
+	<classpathentry kind="lib" path="C:/Program Files/Java/jdk1.8.0_101/jre/lib/jfxswt.jar"/>
+	<classpathentry kind="lib" path="C:/Program Files/Java/jdk1.8.0_101/jre/lib/jsse.jar"/>
+	<classpathentry kind="lib" path="C:/Program Files/Java/jdk1.8.0_101/jre/lib/management-agent.jar"/>
+	<classpathentry kind="lib" path="C:/Program Files/Java/jdk1.8.0_101/jre/lib/plugin.jar"/>
+	<classpathentry kind="lib" path="C:/Program Files/Java/jdk1.8.0_101/jre/lib/resources.jar"/>
+	<classpathentry kind="lib" path="C:/Program Files/Java/jdk1.8.0_101/jre/lib/rt.jar"/>
+	<classpathentry kind="lib" path="/javafx"/>
+	<classpathentry kind="con" path="org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-1.7"/>
+	<classpathentry kind="lib" path="C:/Users/Administrator/Desktop/jsoup-1.11.2.jar"/>
+	<classpathentry kind="output" path="bin"/>
+</classpath>
